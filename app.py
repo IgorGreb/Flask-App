@@ -76,12 +76,6 @@ class RegisterForm(FlaskForm):
     password = PasswordField('password', validators=[InputRequired(), Length(min=5, max=80)])
 
 
-
-
-
-
-
-
 @app.route('/')
 def index():
 
